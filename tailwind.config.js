@@ -1,0 +1,17 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      backgroundColor:{
+        "Azul":"#023872",
+        "Cin":"#1E1E1E",
+      },
+      backgroundImage:{
+        "img-topo": "url('/topo.jpg')",
+      },
+    },
+  },
+  plugins: [],
+}
+
