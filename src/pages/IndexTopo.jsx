@@ -1,5 +1,6 @@
-import Carrosel from "../components/carrosel/Carrosel";
-import NavTopo from "../components/navTopo/NavTopo";
+import Carrosel from "../items/carrosel/Carrosel";
+import Modalidade from "../items/modalidade/Modalidade";
+import NavTopo from "../items/navTopo/NavTopo";
 
 export default function IndexTopo() {
     return(
@@ -9,6 +10,7 @@ export default function IndexTopo() {
             </div>
             <NavTopo/>
             <Carrosel/>
+            <Modalidade/>
         </>
         
     )

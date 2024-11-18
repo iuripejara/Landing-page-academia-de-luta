@@ -1,4 +1,4 @@
-import IndexTopo from "./items/IndexTopo";
+import IndexTopo from "./pages/IndexTopo";
 
 export default function App() {
   return (
