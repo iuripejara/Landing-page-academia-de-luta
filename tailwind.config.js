@@ -5,10 +5,11 @@ export default {
     extend: {
       backgroundColor:{
         "Azul":"#023872",
-        "Cin":"#1E1E1E",
+        "Cin":"#1A191C",
       },
       backgroundImage:{
         "img-topo": "url('/topo.jpg')",
+        "img-onda": "url('./onda.svg')"
       },
     },
   },
